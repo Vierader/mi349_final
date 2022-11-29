@@ -28,16 +28,16 @@ body{
 }
 
 .navigation img { 
-    float: left;
+    float:left;
     padding-left: 50px;
 }
 
 #tabs li{
     float: right;
     list-style-type: none;
-    color: #ffff;
+    color: white;
     text-align: center;
     padding: 10px 20px;
-    text-decoration: darkgray;
+    text-decoration: none;
     font-size: 35px;
 }
