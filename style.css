@@ -25,14 +25,13 @@ body{
     background-color: #ffe7cc;
     opacity: 60%;
     overflow: hidden;
-    padding: 20px 20px;
-    width:100%;
+    padding: 40px 40px;
 }
 
 #logo { 
     position: absolute;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 #tabs li{
