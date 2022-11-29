@@ -32,6 +32,8 @@ body{
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
+    width: 400px;
+    height: 80px;
 }
 
 #tabs li{
