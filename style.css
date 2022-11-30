@@ -23,6 +23,7 @@ body{
 #logo { 
     position: absolute;
     text-align: center;
+    align-items: center;
 }
 
 #tabs li {
@@ -36,6 +37,7 @@ body{
 }
 
 #tabs li a {
-    color: #ffe7cc
+    color: #ffe7cc;
+    text-shadow: 1px 1px black;
 }
 
