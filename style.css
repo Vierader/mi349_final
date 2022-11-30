@@ -10,14 +10,21 @@ https://richandlonely.shop/
 */
 
 
-body{
+#with-bg{
     margin: 0;
     padding: 0;
-    font-family: Helvetica,'Helvetic Neue', Arial, 'Lucida Grande', sans-serif; 
+    font-family: 'Courier New', Courier, monospace; 
     background-image: url(images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+}
+
+#without-bg{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffe7cc;
 }
 
 header {
@@ -53,3 +60,16 @@ section{
     display: flex;
 }
 
+hr {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+h1{
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
