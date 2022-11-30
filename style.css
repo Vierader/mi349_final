@@ -22,19 +22,20 @@ body{
 
 #logo { 
     position: absolute;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8px;
-    margin-left: 8px;
+    text-align: center;
 }
 
-#tabs li{
+#tabs li {
     float: right;
     list-style-type: none;
-    color: white;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
     opacity: 100%;
 }
+
+#tabs li a {
+    color: #ffe7cc
+}
+
