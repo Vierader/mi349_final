@@ -20,24 +20,35 @@ body{
     background-attachment:fixed;
 }
 
-#logo { 
-    position: absolute;
+header {
+    background: rgba(0,0,0,0.8);
     text-align: center;
-    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+#logo { 
+    width: 250px;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.navigation {
+    width: 450px;
+    float: right;
 }
 
 #tabs li {
-    float: right;
     list-style-type: none;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    opacity: 100%;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 15px;
 }
 
 #tabs li a {
     color: #ffe7cc;
-    text-shadow: 1px 1px gray;
+}
+
+section{
+    display: flex;
 }
 
