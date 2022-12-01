@@ -60,7 +60,7 @@ section{
     display: flex;
 }
 
-.hr-small{
+#hr-small{
     width: 50px;
     height: 1px;
     background-color: black;
@@ -77,15 +77,13 @@ h1{
 #pic-derek{
     padding-top: 25px;
     padding-bottom: 25px;
-    display:block;
     height:350px;
     width: 250px;
+    display:block;
     margin-left: auto;
     margin-right: auto;
 }
 #first-para-about{
-    margin-left: 40px;
-    margin-right: 40px;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
