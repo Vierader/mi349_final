@@ -100,3 +100,14 @@ section{
     padding-bottom: 25px;
     font-size: 25px;
 }
+
+section{
+    height: 400px;
+    width: 200px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+}
+
+#item1{
+
+}
