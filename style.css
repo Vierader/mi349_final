@@ -173,6 +173,7 @@ body #above-footer {
     text-align: center;
     position: fixed;
     bottom:0;
+    margin-left: 600px;
 }
 
 #collection ul li{
