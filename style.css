@@ -140,9 +140,10 @@ body #above-footer {
     bottom: 10px;
     background: rgba(0,0,0,0.77);
     text-align: center;
-    padding: 20px 890px 50px 867px;
-    display: inline-block;
+    padding: 20px 560px 50px 560px;
     position: fixed;
+    width: 800px;
+
 }
 
 #above-footer #above-footer-text {
