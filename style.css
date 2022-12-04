@@ -154,6 +154,7 @@ body #above-footer {
     background-color: #ffe7cc;
     margin-top: 25px;
     font-family: 'Courier New', Courier, monospace;
+    border: none;
 }
 .signup input{
     font-family: 'Courier New', Courier, monospace;
