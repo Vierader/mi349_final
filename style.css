@@ -53,6 +53,8 @@ section{
     height: 1px;
     background-color: black;
     border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #h1-about{
@@ -131,14 +133,17 @@ section{
     text-decoration: none;
     text-align: justify;
     margin-left: 40%;
-    margin-top: 800px;
+    margin-top: 400px;
+    position: fixed;
 }
 
-#above-footer {
-    bottom: 0;
-    background: rgba(0,0,0,0.7);
+body #above-footer {
+    bottom: 10px;
+    background: rgba(0,0,0,0.77);
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 890px 50px 867px;
+    display: inline-block;
+    position: fixed;
 }
 
 #above-footer #above-footer-text {
@@ -147,17 +152,41 @@ section{
 
 .signup button{
     background-color: #ffe7cc;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .signup input{
+    font-family: 'Courier New', Courier, monospace;
     border: none;
     margin: 0;
 }
 
-footer ul li{
+#index ul li{
     list-style: none;
     display: inline-block;
     margin-left: 25px;
     margin-right: 25px;
-    color: red;
+    color:#ffe7cc;
+    margin-top: 25px;
+}
+
+#index {
     text-align: center;
+    position: fixed;
+    bottom:0;
+    margin-left: 820px;
+}
+
+#collection ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    color:black;
+    margin-top: 25px;
+}
+
+#collection {
+    text-align: center;
+    bottom:0;
 }
