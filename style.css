@@ -155,11 +155,15 @@ body #above-footer {
     margin-top: 25px;
     font-family: 'Courier New', Courier, monospace;
     border: none;
+    width: 100px;
+    height: 28px;
 }
 .signup input{
     font-family: 'Courier New', Courier, monospace;
     border: none;
     margin: 0;
+    width: 270px;
+    height: 25px;
 }
 
 #index ul li{
